@@ -17,6 +17,6 @@ for item in os.listdir(path):
     shutil.move(s, d)
 
 #Deleting cached file, because if not and the script is re-executed, it will fail
-cache_path = os.path.expanduser("~/.cache/kagglehub/datasets/usdot/flight-delays")
+cache_path = os.path.expanduser("~/.cache/kagglehub/datasets/usdot")
 if os.path.exists(cache_path):
     shutil.rmtree(cache_path)
