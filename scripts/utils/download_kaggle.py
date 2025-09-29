@@ -4,10 +4,8 @@ import shutil
 from datetime import datetime
 
 target_folder = os.path.join(os.getcwd(), "data", "raw")
-print(f"temp: {target_folder}")
 
 path = kagglehub.dataset_download("usdot/flight-delays")
-print(f"temp: {path}")
 now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 print(f"{now}: Datasets donloaded in another folder. Moving to {target_folder}")
 

@@ -1,0 +1,19 @@
+2025-09-29 23:57:02: Downloading dataset locally from Kaggle
+temp: /home/gesser/aws-flight-etl/data/raw
+Downloading from https://www.kaggle.com/api/v1/datasets/download/usdot/flight-delays?dataset_version_number=1...
+  0%|          | 0.00/191M [00:00<?, ?B/s]  1%|          | 1.00M/191M [00:00<01:08, 2.91MB/s]  2%|▏         | 3.00M/191M [00:00<00:26, 7.49MB/s]  3%|▎         | 5.00M/191M [00:00<00:21, 9.10MB/s]  5%|▍         | 9.00M/191M [00:00<00:12, 15.2MB/s]  7%|▋         | 14.0M/191M [00:00<00:07, 23.2MB/s] 10%|█         | 20.0M/191M [00:01<00:05, 31.6MB/s] 13%|█▎        | 25.0M/191M [00:01<00:04, 36.6MB/s] 16%|█▌        | 30.0M/191M [00:01<00:04, 39.5MB/s] 18%|█▊        | 35.0M/191M [00:01<00:03, 42.7MB/s] 21%|██        | 40.0M/191M [00:01<00:03, 44.2MB/s] 24%|██▍       | 46.0M/191M [00:01<00:03, 47.0MB/s] 27%|██▋       | 51.0M/191M [00:01<00:03, 47.9MB/s] 29%|██▉       | 56.0M/191M [00:01<00:02, 48.4MB/s] 32%|███▏      | 61.0M/191M [00:01<00:02, 48.9MB/s] 35%|███▌      | 67.0M/191M [00:02<00:02, 49.6MB/s] 38%|███▊      | 72.0M/191M [00:02<00:02, 49.8MB/s] 40%|████      | 77.0M/191M [00:02<00:02, 47.9MB/s] 43%|████▎     | 82.0M/191M [00:02<00:02, 48.6MB/s] 46%|████▌     | 87.0M/191M [00:02<00:02, 47.9MB/s] 48%|████▊     | 92.0M/191M [00:02<00:02, 48.1MB/s] 51%|█████▏    | 98.0M/191M [00:02<00:01, 49.7MB/s] 54%|█████▍    | 103M/191M [00:02<00:01, 49.1MB/s]  57%|█████▋    | 108M/191M [00:02<00:01, 49.0MB/s] 59%|█████▉    | 113M/191M [00:03<00:01, 45.8MB/s] 62%|██████▏   | 118M/191M [00:03<00:01, 45.1MB/s] 64%|██████▍   | 123M/191M [00:03<00:01, 45.5MB/s] 67%|██████▋   | 128M/191M [00:03<00:01, 45.8MB/s] 70%|██████▉   | 133M/191M [00:03<00:01, 45.9MB/s] 73%|███████▎  | 139M/191M [00:03<00:01, 48.7MB/s] 75%|███████▌  | 144M/191M [00:03<00:01, 47.6MB/s] 78%|███████▊  | 149M/191M [00:03<00:00, 45.8MB/s] 81%|████████  | 154M/191M [00:03<00:00, 45.7MB/s] 83%|████████▎ | 159M/191M [00:04<00:00, 44.5MB/s] 86%|████████▌ | 164M/191M [00:04<00:00, 45.6MB/s] 89%|████████▊ | 169M/191M [00:04<00:00, 46.5MB/s] 91%|█████████ | 174M/191M [00:04<00:00, 47.4MB/s] 94%|█████████▍| 179M/191M [00:04<00:00, 46.2MB/s] 96%|█████████▋| 184M/191M [00:04<00:00, 46.3MB/s] 99%|█████████▉| 189M/191M [00:04<00:00, 46.6MB/s]100%|██████████| 191M/191M [00:04<00:00, 41.7MB/s]
+Extracting files...
+temp: /home/gesser/.cache/kagglehub/datasets/usdot/flight-delays/versions/1
+2025-09-29 23:57:15: Datasets donloaded in another folder. Moving to /home/gesser/aws-flight-etl/data/raw
+2025-09-29 23:57:15: Moving airports.csv
+2025-09-29 23:57:15: Moving flights.csv
+2025-09-29 23:57:15: Moving airlines.csv
+2025-09-29 23:57:15: Raw datasets downloaded
+2025-09-29 23:57:16: Moving /home/gesser/aws-flight-etl/data/raw/airlines.csv to S3://aws-flight-etl-project
+2025-09-29 23:57:18: Moving /home/gesser/aws-flight-etl/data/raw/airlines.csv to S3://aws-flight-etl-project completed
+2025-09-29 23:57:18: Moving /home/gesser/aws-flight-etl/data/raw/airports.csv to S3://aws-flight-etl-project
+2025-09-29 23:57:19: Moving /home/gesser/aws-flight-etl/data/raw/airports.csv to S3://aws-flight-etl-project completed
+2025-09-29 23:57:19: Moving /home/gesser/aws-flight-etl/data/raw/flights.csv to S3://aws-flight-etl-project
+2025-09-29 23:58:08: Moving /home/gesser/aws-flight-etl/data/raw/flights.csv to S3://aws-flight-etl-project completed
+2025-09-29 23:58:08: Datasets successfully stored in S3://aws-flight-etl-project
+2025-09-29 23:58:08: -----------------------------------------------------------------------------------------------------------------
