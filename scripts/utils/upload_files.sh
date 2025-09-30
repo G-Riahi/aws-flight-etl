@@ -23,9 +23,9 @@ if ! aws s3 ls "s3://$bucket_name" 2>/dev/null; then
 fi
 
 for file in "$data_folder"/*; do 
-    log "Moving $file to S3://$bucket_name"
-    aws s3 mv "$file" "s3://$bucket_name/raw/"
-    log "Moving $file to S3://$bucket_name completed"
+    log "Copying $file to S3://$bucket_name"
+    aws s3 cp "$file" "s3://$bucket_name/raw/"
+    log "Copying $file to S3://$bucket_name completed"
 done
 
 log "Datasets successfully stored in S3://$bucket_name"
